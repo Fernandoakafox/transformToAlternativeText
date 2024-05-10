@@ -24,6 +24,22 @@ Com o envio de uma imagem e um texto contendo diretrizes de boas práticas para 
 ![E se você estivesse comprando roupas, mas na hora (7)](https://github.com/Fernandoakafox/transformToAlternativeText/assets/124198375/0cc9bc6a-9fa4-4c51-90dd-c9b1ea8ddc21)
 
 
+## Como faço para testar o programa?
+1. Clone o repositório:
+
+   git clone git@github.com:Fernandoakafox/transformToAlternativeText.git
+   cd seu-projeto
+
+2. Instale as dependências do projeto:
+
+   pip install -r requirements.txt
+
+
+3. Utilize o arquivo casoDeUso.py como guia:
+
+   Abra e modifique o arquivo casoDeUso.py
+
+
 
 
 
