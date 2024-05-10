@@ -16,6 +16,4 @@ Com o envio de uma imagem e um texto contendo diretrizes de boas práticas para 
 
 ![E se você estivesse comprando roupas, mas na hora (3)](https://github.com/Fernandoakafox/transformToAlternativeText/assets/124198375/3c31d754-f6c7-4d7b-9691-38ace2269977)
 
-- **Automatização da criação de Alternative Text:** O Gemini automatiza o processo de criação de Alternative Text para imagens, aumentando assim a acessibilidade na web.
-- **Texto alternativo preciso e de alta qualidade:** Utilizando diretrizes de boas práticas, o Gemini gera textos alternativos precisos e de alta qualidade para imagens.
 
