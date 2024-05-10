@@ -35,9 +35,9 @@ Com o envio de uma imagem e um texto contendo diretrizes de boas práticas para 
    ![image](https://github.com/Fernandoakafox/transformToAlternativeText/assets/124198375/cd44aa99-eb9b-447b-9238-efb0da55aa95)
 
 
-#### 3. Utilize o arquivo casoDeUso.py como guia:
+### 3. Utilize o arquivo casoDeUso.py como guia:
 
-   Abra e modifique o arquivo casoDeUso.py
+![Captura de tela 2024-05-10 115945](https://github.com/Fernandoakafox/transformToAlternativeText/assets/124198375/8203a597-6a70-48e9-88d3-69b47dd19ae7)
 
 
 
