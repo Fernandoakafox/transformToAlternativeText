@@ -16,6 +16,7 @@ Com o envio de uma imagem e um texto contendo diretrizes de boas práticas para 
 
 ![E se você estivesse comprando roupas, mas na hora (5)](https://github.com/Fernandoakafox/transformToAlternativeText/assets/124198375/b02e42dd-95ec-4019-a1a9-f89d2b22b39b)
 
+
 ![E se você estivesse comprando roupas, mas na hora (4)](https://github.com/Fernandoakafox/transformToAlternativeText/assets/124198375/3bb35e09-abcb-4952-ae38-6e61c0d8c902)
 
 
