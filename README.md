@@ -20,7 +20,7 @@ Com o envio de uma imagem e um texto contendo diretrizes de boas práticas para 
 ## No exemplo abaixo, veja a riqueza de detalhes
 ![3](https://github.com/Fernandoakafox/transformToAlternativeText/assets/124198375/b54f030e-7a7a-43a4-be86-0ff45db49c25)
 
-## No exemplo abaixo, veja como o texto consegue passar a nossão do ambiente da imagem
+## No exemplo abaixo, veja como o texto consegue passar a noção do ambiente da imagem
 ![4](https://github.com/Fernandoakafox/transformToAlternativeText/assets/124198375/edfe4bac-3866-430b-a88d-e313ea08b334)
 
 ## Como faço para testar o programa?
