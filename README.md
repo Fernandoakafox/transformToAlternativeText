@@ -8,7 +8,7 @@ Um audio descrito é um software ou aplicativo que converte texto em áudio, per
 ![E se você estivesse comprando roupas, mas na hora (10)](https://github.com/Fernandoakafox/transformToAlternativeText/assets/124198375/e45f94be-7d5d-440f-a72c-61a87de88685)
 
 ## Funcionamento do projeto
-Com o envio de uma imagem e um texto contendo diretrizes de boas práticas para a criação de texto alternativo, este projeto é capaz de gerar automaticamente um texto alternativo preciso e de alta qualidade. A automação deste processo pode ser feita atravez deste projeto, que contém codigo no paradigma de orientação a objetos. Deste modo, você só precisa inicializar o objeto uma vez, passando como argumento a sua API-Key do Google Cloud e o seu texto de boas práticas. Apartir dai, é só chamar a função "gerarTextoAlternativo()" passando como parametro uma imagem.
+Com o envio de uma imagem e um texto, personalizado pelo usuário, contendo diretrizes de boas práticas para a criação de texto alternativo, este projeto é capaz de gerar automaticamente um texto alternativo preciso e de alta qualidade. A automação deste processo pode ser feita atravez deste projeto, que contém codigo no paradigma de orientação a objetos. Deste modo, você só precisa inicializar o objeto uma vez, passando como argumento a sua API-Key do Google Cloud e o seu texto de boas práticas. Apartir dai, é só chamar a função "gerarTextoAlternativo()" passando como parametro uma imagem.
 
 ![E se você estivesse comprando roupas, mas na hora (9)](https://github.com/Fernandoakafox/transformToAlternativeText/assets/124198375/a2a58783-2318-49e6-a0eb-0262f6bf7f98)
 
