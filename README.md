@@ -20,6 +20,9 @@ Com o envio de uma imagem e um texto contendo diretrizes de boas práticas para 
 ## No exemplo abaixo, veja a riqueza de detalhes
 ![E se você estivesse comprando roupas, mas na hora (6)](https://github.com/Fernandoakafox/transformToAlternativeText/assets/124198375/7a83d4ed-e12e-4737-9dfd-ea7435e90143)
 
+![E se você estivesse comprando roupas, mas na hora (7)](https://github.com/Fernandoakafox/transformToAlternativeText/assets/124198375/0cc9bc6a-9fa4-4c51-90dd-c9b1ea8ddc21)
+
+
 
 
 
