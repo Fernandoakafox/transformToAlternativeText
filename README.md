@@ -2,8 +2,8 @@
 
 Este projeto foi desenvolvido com o objetivo de aumentar a acessibilidade na web através da automatização da criação de "Alternative Text" (texto alternativo) para imagens. O Alternative Text é um campo fundamental para audiodescritores, permitindo que pessoas cegas compreendam o conteúdo das imagens ao navegar na internet. Infelizmente muitos sites deixam o alternative text em branco, isto é, sem a real descrição da imagem. Este projeto visa diminuir, e quem sabe eliminar, a falta de alternative text.
 
-## Mas o que é um Audio Leitor?
-Um audio leitor é um software ou aplicativo que converte texto em áudio, permitindo que os usuários ouçam o conteúdo em vez de lê-lo. No momento em que o software encontra uma imagem em uma página da web, por exemplo, ele pode usar o texto alternativo para descreve-la.
+## Mas o que é um Audio Descritor?
+Um audio descrito é um software ou aplicativo que converte texto em áudio, permitindo que os usuários ouçam o conteúdo em vez de lê-lo. No momento em que o software encontra uma imagem em uma página da web, por exemplo, ele pode usar o texto alternativo para descreve-la.
  
 ![Design sem nome](https://github.com/Fernandoakafox/transformToAlternativeText/assets/124198375/e889b03e-86cd-4b2c-b698-638e01b4664d)
 
