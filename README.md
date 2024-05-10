@@ -5,7 +5,7 @@ Este projeto foi desenvolvido com o objetivo de aumentar a acessibilidade na web
 ## Mas o que é um Audio Descritor?
 Um audio descrito é um software ou aplicativo que converte texto em áudio, permitindo que os usuários ouçam o conteúdo em vez de lê-lo. No momento em que o software encontra uma imagem em uma página da web, por exemplo, ele pode usar o texto alternativo para descreve-la.
  
-![Design sem nome](https://github.com/Fernandoakafox/transformToAlternativeText/assets/124198375/e889b03e-86cd-4b2c-b698-638e01b4664d)
+![E se você estivesse comprando roupas, mas na hora (10)](https://github.com/Fernandoakafox/transformToAlternativeText/assets/124198375/e45f94be-7d5d-440f-a72c-61a87de88685)
 
 ## Funcionamento do projeto
 Com o envio de uma imagem e um texto contendo diretrizes de boas práticas para a criação de texto alternativo, este projeto é capaz de gerar automaticamente um texto alternativo preciso e de alta qualidade. A automação deste processo pode ser feita atravez deste projeto, que contém codigo no paradigma de orientação a objetos. Deste modo, você só precisa inicializar o objeto uma vez, passando como argumento a sua API-Key do Google Cloud e o seu texto de boas práticas. Apartir dai, é só chamar a função "gerarTextoAlternativo()" passando como parametro uma imagem.
