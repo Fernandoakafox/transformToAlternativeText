@@ -27,12 +27,12 @@ Com o envio de uma imagem e um texto contendo diretrizes de boas práticas para 
 ## Como faço para testar o programa?
 ### 1. Clone o repositório:
 
-   git clone git@github.com:Fernandoakafox/transformToAlternativeText.git
-   cd seu-projeto
+   ![image](https://github.com/Fernandoakafox/transformToAlternativeText/assets/124198375/129dff52-53d5-4dde-a65d-d3f3b277b221)
+
 
 ### 2. Instale as dependências do projeto:
 
-   pip install -r requirements.txt
+   ![image](https://github.com/Fernandoakafox/transformToAlternativeText/assets/124198375/cd44aa99-eb9b-447b-9238-efb0da55aa95)
 
 
 #### 3. Utilize o arquivo casoDeUso.py como guia:
