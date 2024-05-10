@@ -7,7 +7,7 @@ Este projeto foi desenvolvido com o objetivo de aumentar a acessibilidade na web
 ## Funcionamento
 Com o envio de uma imagem e um texto contendo diretrizes de boas práticas para a criação de texto alternativo, este projeto é capaz de gerar automaticamente um texto alternativo preciso e de alta qualidade. A automação deste processo pode ser feita atravez deste projeto, que contém codigo no paradigma de orientação a onjetos. Deste modo, você só precisa inicializar o objeto uma vez, passando como argumento a sua API-Key do Google Cloud e o seu texto de boas práticas. Apartir dai, é só chamar a função "gerarTextoAlternativo()" passando como parametro a imagem.
 
-![E se você estivesse comprando roupas, mas na hora](https://github.com/Fernandoakafox/transformToAlternativeText/assets/124198375/5cbf93cd-d0cb-40e0-ac05-e870b7c3c7db)
+![E se você estivesse comprando roupas, mas na hora (1)](https://github.com/Fernandoakafox/transformToAlternativeText/assets/124198375/f4b549c2-10e2-45bb-a034-fac0c44fde2a)
 
 
 - **Automatização da criação de Alternative Text:** O Gemini automatiza o processo de criação de Alternative Text para imagens, aumentando assim a acessibilidade na web.
