@@ -7,6 +7,9 @@ Com o envio de uma imagem e um texto contendo diretrizes de boas práticas para 
   
 ![O texto alternativo ajuda os audioleitores a acessar conteúdo visual!](https://github.com/Fernandoakafox/transformToAlternativeText/assets/124198375/42e7ae96-b132-4a9a-ac05-245e2d86a104)
 
+![Design sem nome](https://github.com/Fernandoakafox/transformToAlternativeText/assets/124198375/e889b03e-86cd-4b2c-b698-638e01b4664d)
+
+
 ## Funcionalidades
 
 - **Automatização da criação de Alternative Text:** O Gemini automatiza o processo de criação de Alternative Text para imagens, aumentando assim a acessibilidade na web.
