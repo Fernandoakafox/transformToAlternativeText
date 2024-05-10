@@ -8,7 +8,7 @@ Um audio leitor é um software ou aplicativo que converte texto em áudio, permi
 ![Design sem nome](https://github.com/Fernandoakafox/transformToAlternativeText/assets/124198375/e889b03e-86cd-4b2c-b698-638e01b4664d)
 
 ## Funcionamento do projeto
-Com o envio de uma imagem e um texto contendo diretrizes de boas práticas para a criação de texto alternativo, este projeto é capaz de gerar automaticamente um texto alternativo preciso e de alta qualidade. A automação deste processo pode ser feita atravez deste projeto, que contém codigo no paradigma de orientação a onjetos. Deste modo, você só precisa inicializar o objeto uma vez, passando como argumento a sua API-Key do Google Cloud e o seu texto de boas práticas. Apartir dai, é só chamar a função "gerarTextoAlternativo()" passando como parametro a imagem.
+Com o envio de uma imagem e um texto contendo diretrizes de boas práticas para a criação de texto alternativo, este projeto é capaz de gerar automaticamente um texto alternativo preciso e de alta qualidade. A automação deste processo pode ser feita atravez deste projeto, que contém codigo no paradigma de orientação a objetos. Deste modo, você só precisa inicializar o objeto uma vez, passando como argumento a sua API-Key do Google Cloud e o seu texto de boas práticas. Apartir dai, é só chamar a função "gerarTextoAlternativo()" passando como parametro uma imagem.
 
 ![E se você estivesse comprando roupas, mas na hora (2)](https://github.com/Fernandoakafox/transformToAlternativeText/assets/124198375/33d4edb4-5fa4-4731-b803-20a3c0e57d9c)
 
