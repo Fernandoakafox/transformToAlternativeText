@@ -12,7 +12,7 @@ Com o envio de uma imagem e um texto contendo diretrizes de boas práticas para 
 
 ![E se você estivesse comprando roupas, mas na hora (2)](https://github.com/Fernandoakafox/transformToAlternativeText/assets/124198375/33d4edb4-5fa4-4731-b803-20a3c0e57d9c)
 
-## Veja um exemplo de um texto alternativo criado pelo projeto
+## Veja um exemplos de textos alternativos criados pelo projeto
 
 ![E se você estivesse comprando roupas, mas na hora (3)](https://github.com/Fernandoakafox/transformToAlternativeText/assets/124198375/3c31d754-f6c7-4d7b-9691-38ace2269977)
 
