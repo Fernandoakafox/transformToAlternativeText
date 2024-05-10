@@ -8,4 +8,6 @@ Com o envio de uma imagem e um texto contendo diretrizes de boas práticas para 
 
 - **Automatização da criação de Alternative Text:** O Gemini automatiza o processo de criação de Alternative Text para imagens, aumentando assim a acessibilidade na web.
 - **Texto alternativo preciso e de alta qualidade:** Utilizando diretrizes de boas práticas, o Gemini gera textos alternativos precisos e de alta qualidade para imagens.
+
+- 
 ![O texto alternativo ajuda os audioleitores a acessar conteúdo visual!](https://github.com/Fernandoakafox/transformToAlternativeText/assets/124198375/42e7ae96-b132-4a9a-ac05-245e2d86a104)
