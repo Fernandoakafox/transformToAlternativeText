@@ -14,6 +14,7 @@ Com o envio de uma imagem e um texto contendo diretrizes de boas práticas para 
 
 ## Veja um exemplos de textos alternativos criados pelo projeto
 
-![E se você estivesse comprando roupas, mas na hora (3)](https://github.com/Fernandoakafox/transformToAlternativeText/assets/124198375/3c31d754-f6c7-4d7b-9691-38ace2269977)
+![E se você estivesse comprando roupas, mas na hora (4)](https://github.com/Fernandoakafox/transformToAlternativeText/assets/124198375/3bb35e09-abcb-4952-ae38-6e61c0d8c902)
+
 
 
