@@ -10,19 +10,18 @@ Um audio leitor é um software ou aplicativo que converte texto em áudio, permi
 ## Funcionamento do projeto
 Com o envio de uma imagem e um texto contendo diretrizes de boas práticas para a criação de texto alternativo, este projeto é capaz de gerar automaticamente um texto alternativo preciso e de alta qualidade. A automação deste processo pode ser feita atravez deste projeto, que contém codigo no paradigma de orientação a objetos. Deste modo, você só precisa inicializar o objeto uma vez, passando como argumento a sua API-Key do Google Cloud e o seu texto de boas práticas. Apartir dai, é só chamar a função "gerarTextoAlternativo()" passando como parametro uma imagem.
 
-![E se você estivesse comprando roupas, mas na hora (2)](https://github.com/Fernandoakafox/transformToAlternativeText/assets/124198375/33d4edb4-5fa4-4731-b803-20a3c0e57d9c)
+![E se você estivesse comprando roupas, mas na hora (8)](https://github.com/Fernandoakafox/transformToAlternativeText/assets/124198375/ec30227c-4228-4183-b2d9-c6a33516470b)
 
 ## Veja exemplos de textos alternativos criados pelo projeto
+![5](https://github.com/Fernandoakafox/transformToAlternativeText/assets/124198375/b9a2950a-1731-44db-a294-a1212eade8eb)
 
-![E se você estivesse comprando roupas, mas na hora (5)](https://github.com/Fernandoakafox/transformToAlternativeText/assets/124198375/b02e42dd-95ec-4019-a1a9-f89d2b22b39b)
 
 
 ## No exemplo abaixo, veja a riqueza de detalhes
-![E se você estivesse comprando roupas, mas na hora (6)](https://github.com/Fernandoakafox/transformToAlternativeText/assets/124198375/7a83d4ed-e12e-4737-9dfd-ea7435e90143)
+![3](https://github.com/Fernandoakafox/transformToAlternativeText/assets/124198375/b54f030e-7a7a-43a4-be86-0ff45db49c25)
 
 ## No exemplo abaixo, veja como o texto consegue passar a nossão do ambiente da imagem
-![E se você estivesse comprando roupas, mas na hora (7)](https://github.com/Fernandoakafox/transformToAlternativeText/assets/124198375/0cc9bc6a-9fa4-4c51-90dd-c9b1ea8ddc21)
-
+![4](https://github.com/Fernandoakafox/transformToAlternativeText/assets/124198375/edfe4bac-3866-430b-a88d-e313ea08b334)
 
 ## Como faço para testar o programa?
 ### 1. Clone o repositório:
