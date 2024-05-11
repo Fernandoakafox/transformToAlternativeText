@@ -3,6 +3,17 @@ import PIL.Image
 import requests
 import os
 
+def readTextArchive(archivePath):
+  """Recebe o caminho de um arquivo txt e retorna uma string contendo o conteudo do texto
+
+  Parametros:
+  - archivePath (str): Caminho do arquivo .txt
+
+  """
+  with open(archivePath, "r") as file:
+    text = file.read()
+    return text
+
 def downloadImagem(url:str, nome_arquivo:str):
     """Recebe uma url de uma imagem e o nome do arquivo, contendo o formato, em que a imagem deverá ser arquivada.
 
@@ -29,22 +40,32 @@ def downloadImagem(url:str, nome_arquivo:str):
         return None
 
 class ImageToAltertiveText:
-    def __init__(self,chaveApiGoogleGemini,textPrompt=None):
-        """Recebe a chave API do Google Gemini e um arquivo de texto que deve conter as orientações de como o modelo deve gerar o texto alternativo(EX: arquivo de texto contendo o texto Appropriate Use of Alternative Tex + diretrizes especificas do seu uso: Imagem de blogspot ou Imagem de marketplace...)
+    def __init__(self, chaveApiGoogleGemini, archiveTxtPromptPath=None, stringPrompt=None):
+        """Recebe a chave API do Google Gemini e o caminho para um arquivo de texto ou uma string que deve conter as orientações de como o modelo deve gerar o texto alternativo(EX: arquivo de texto contendo o texto Appropriate Use of Alternative Tex + diretrizes especificas do seu uso: Imagem de blogspot ou Imagem de marketplace...)
 
         Parametros:
         - chaveApiGoogleGemini (str): chave API do Google Gemini
-        - textPrompt (str): arquivo de texto contendo o texto Appropriate Use of Alternative Tex + diretrizes especificas do seu uso: Imagem de blogspot ou Imagem de marketplace...
-
-        Retornos:
-         - AQUI algum erro caso a api key esteja errada
-         - AQUI algum erro caso textPromp não seja no formato texto
+        - stringPrompt (str): texto no formato string contendo o texto Appropriate Use of Alternative Tex + diretrizes especificas do seu uso: Imagem de blogspot ou Imagem de marketplace...
+        - archiveTxtPrompt (.txt): arquivo de texto contendo o texto Appropriate Use of Alternative Tex + diretrizes especificas do seu uso: Imagem de blogspot ou Imagem de marketplace...
 
         """
         self.apiKey = chaveApiGoogleGemini
         genai.configure(api_key=self.apiKey)
-        self.textPrompt = textPrompt
+
+        # verificando se o usuario deu algum prompt especifico, do contrario é utilizado o prompt padrao com diretrizes para criação de alternative text
+        if stringPrompt:
+          self.stringPrompt = stringPrompt
+        elif archiveTxtPromptPath:
+          self.stringPrompt = readTextArchive(archiveTxtPromptPath)
+        else:
+          self.stringPrompt = readTextArchive("diretrizes_para_criacao_de_alternative_text.txt")
+
+        # defini a temperatura do modelo
+        self.modelTemperature = 1, #Defini a temperatura do modelo como 1 caso o usuario não especifique,
+
+        # configura o modelo
         self.model = self.configureGenerativeModel()
+
 
 
     def configureGenerativeModel(self):
@@ -84,11 +105,11 @@ class ImageToAltertiveText:
       return genai.GenerativeModel(model_name=model_name, generation_config=generation_config, safety_settings=safety_settings)
 
 
-    def gerarTextoAlternativo(self, imageLink: str = None, imageArchive: str = None):
-        """Recebe o link de uma imagem e faz o download da imagem ou recebe o endereço de uma imagem. A imagem é aberta e enviada para a API Google generativeai junto com o textPrompt/pdfPrompt que foi solicitado na construção do objeto. O retorno é um texto alternativo que segue as orientações definidas no atributo textPrompt/pdfPrompt.
+    def gerarTextoAlternativo(self, imageUrl: str = None, imageArchive: str = None):
+        """Recebe a URL de uma imagem ou caminho e faz o download da imagem. A imagem é aberta e enviada para a API Google generativeai junto com o prompt textual que foi solicitado na construção do objeto. O retorno é um texto alternativo que segue as orientações definidas pelo prompt textual.
 
         Parametros:
-        - imageLink (string, optional): string da imagem que necessita um alternative text
+        - imageUrl (string, optional): string da imagem que necessita um alternative text
         - imagePath (string, optional): caminho da imagem que necessita um alternative text
 
         Retorno:
@@ -96,8 +117,8 @@ class ImageToAltertiveText:
         - str: string contendo o alternative text
         """
 
-        if imageLink:
-            downloadImagem(imageLink, "tempImage.png")
+        if imageUrl:
+            downloadImagem(imageUrl, "tempImage.png")
             imagePath = "tempImage.png"
         elif imageArchive:
             imagePath = imageArchive
@@ -106,13 +127,13 @@ class ImageToAltertiveText:
         img = PIL.Image.open(imagePath)
 
         # faz uma solicitação enviando uma imagem e um texto. Armazena a resposta em response
-        response = self.model.generate_content([self.textPrompt, img])
+        response = self.model.generate_content([self.stringPrompt, img])
 
         # fecha a imagem
         img.close()
 
         # se tivemos que baixar a imagem, agora excluimos ela
-        if imageLink:
+        if imageUrl:
             # exclui a imagem temporaria
             os.remove("tempImage.png")
 

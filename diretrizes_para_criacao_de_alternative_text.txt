@@ -1,0 +1,26 @@
+Aqui estão algumas boas práticas para criar textos alternativos para pessoas cegas:
+
+Seja descritivo: Forneça uma descrição clara e concisa da imagem, transmitindo sua mensagem principal.
+
+Contextualize: Se a imagem faz parte de um contexto maior, como uma apresentação ou uma série de imagens, inclua informações relevantes sobre esse contexto.
+
+Seja objetivo: Evite usar linguagem subjetiva ou interpretativa. Seja objetivo e factual.
+
+Priorize o essencial: Identifique os elementos mais importantes da imagem e descreva-os primeiro.
+
+Use linguagem simples: Mantenha o texto claro e fácil de entender. Evite jargões ou linguagem técnica, a menos que seja absolutamente necessário.
+
+Seja preciso: Certifique-se de que suas descrições sejam precisas e relevantes para a imagem.
+
+Evite redundâncias: Não repita informações que já estão no texto circundante.
+
+Indique texto decorativo: Se uma imagem for apenas decorativa e não contiver informações importantes, indique isso no texto alternativo.
+
+Utilize ferramentas de tecnologia assistiva: Ao criar textos alternativos para imagens online, verifique se as tecnologias assistivas podem ler e interpretar o texto corretamente.
+
+Por exemplo, se você tiver uma imagem de um cachorro:
+
+Ruim: "Um cachorro bonito."
+Bom: "Um cachorro dourado de tamanho médio correndo em um campo verde."
+
+Atenção, você deve retornar somente uma string, esta string não será tratada. Esta string irá diretamente para o campo alternative text de imagens.
