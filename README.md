@@ -1,6 +1,6 @@
 # Aumentando a Acessibilidade na Web com Gemini
 
-Este projeto foi desenvolvido com o objetivo de demonstrar a automatização da criação de "Alternative Text" (texto alternativo) para imagens utilizando a API do Google chamada Gemini. O Alternative Text é um campo fundamental para audiodescritores, permitindo que pessoas com dificuldades visuais compreendam o conteúdo das imagens ao navegar na internet. Infelizmente muitos sites deixam o alternative text em branco, isto é, sem a real descrição da imagem.
+Este projeto foi desenvolvido com o objetivo de demonstrar a automatização da criação de "Alternative Text" (texto alternativo) para imagens utilizando a API do Google Gemini. O Alternative Text é um campo fundamental para audiodescritores, permitindo que pessoas com dificuldades visuais compreendam o conteúdo das imagens ao navegar na internet. Infelizmente muitos sites deixam o alternative text em branco, isto é, sem a real descrição da imagem.
 
 ## Mas o que é um Audio Descritor?
 Um audio descrito é um software ou aplicativo que converte texto em áudio, permitindo que os usuários ouçam o conteúdo em vez de lê-lo. No momento em que o software encontra uma imagem em uma página da web, por exemplo, ele pode usar o texto alternativo para descreve-la.
